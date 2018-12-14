@@ -26,6 +26,7 @@ class Mtvimeocarousel {
 		wp_enqueue_style('mt-vimeo-carousel-css', plugin_dir_url(__FILE__).'/assets/css/plugin-style.css',null,'1.0');
 		wp_enqueue_script('slick-slider-js', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js','jquery');
 		wp_enqueue_script('vimeo-player', '//player.vimeo.com/api/player.js','jquery','2.6.5');
+		wp_enqueue_script('mt-vimeo-carousel-scripts', plugin_dir_url(__FILE__).'/assets/js/scripts.js', array('jquery','slick-slider-js'),time());
 	}
 }
 
