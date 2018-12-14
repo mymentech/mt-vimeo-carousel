@@ -1,0 +1,9 @@
+.make-carousel {
+    display: block;
+    overflow: hidden;
+}
+
+.make-carousel .cl-review.type_quote {
+    width: 33.3%;
+    float: left;
+}
